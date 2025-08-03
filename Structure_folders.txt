@@ -1,0 +1,15 @@
+Shopper_Spectrum/
+├── app.py                           # Main Streamlit file
+├── requirements.txt                # List of Python dependencies
+├── README.md                       # Project summary and instructions
+├── data/
+│   ├── online_retail.csv           # Raw dataset (optional)
+│   └── rfm_segmented.csv           # Preprocessed RFM data
+├── models/
+│   ├── rfm_kmeans_model.pkl
+│   ├── rfm_scaler.pkl
+│   └── similarity_matrix.pkl
+├── pages/
+│   ├── 1_Customer_Segmentation.py
+│   └── 2_Product_Recommendation.py
+└── assets/                         # Optional: add screenshots or diagrams
